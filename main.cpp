@@ -5,7 +5,7 @@ using namespace std;
 
 void* print(void* n)
 {
-    cout << "Watek nr " << (int)n << "\n";
+    cout << "Watek nr " << (long)n << "\n";
     pthread_exit(NULL);
 }
 
